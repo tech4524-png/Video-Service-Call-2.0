@@ -2,7 +2,7 @@ export const runtime = 'nodejs';
 export const maxDuration = 60; // שניות — נתמך ב-Vercel Hobby עד 60
 
 const GEMINI_BASE = 'https://generativelanguage.googleapis.com';
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-3.6-flash';
 const OPENAI_MODEL = 'gpt-4o';
 
 export async function POST(req) {

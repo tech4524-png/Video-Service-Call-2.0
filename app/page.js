@@ -337,7 +337,7 @@ function Home() {
             </button>
           </div>
           <button
-            style={{ ...styles.sendBtn, opacity: machineInput.trim() ? 1 : 0.4 }}
+            style={{ ...styles.sendBtn, flex: 'none', opacity: machineInput.trim() ? 1 : 0.4 }}
             disabled={!machineInput.trim()}
             onClick={submitMachine}
           >
